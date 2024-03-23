@@ -20,7 +20,7 @@
 9. Общий вывод
 
 ## Подбор модели
-Для прогнозирования покупательской активности был осуществлен подбор наилучшей модели среди DecisionTreeClassifier, KNeighborsClassifier, SVC, LogisticRegression и соответствующих параметров для нее.
+Для прогнозирования покупательской активности был осуществлен подбор наилучшей модели среди DecisionTreeClassifier, KNeighborsClassifier, LogisticRegression и соответствующих параметров для нее.
 
 ## Результат применения
 Наилучшей моделью была выбрана **LogisticRegression**(C=2, penalty='l1', random_state=42, solver='liblinear') при масштабировании с применением RobustScaler. Метрика ROC-AUC лучшей модели на тренировочной выборке: 0.8997. Метрика ROC-AUC на тестовой выборке: 0.862.
